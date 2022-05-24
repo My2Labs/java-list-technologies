@@ -1,12 +1,12 @@
 class MyCodingSkills {
     public static void main(String args[]) {
-        System.out.println("CSS");
-        System.out.println("HTML");
-        System.out.println("JavaScript");
-        System.out.println("TypeScript");
-        System.out.println("Java");
-        System.out.println("OOP");
-        System.out.println("SQL");
-        System.out.println("Spring Boot");
+        String[] technology = { "CSS", "HTML", "JavaScript", "TypeScript", "Java", "OOP", "SQL", "Spring Boot" };
+        int i = 0;
+
+        while (i < 8) {
+            String list = technology[i];
+            System.out.print(list + "\r\n");
+            i++;
+        }
     }
 }
